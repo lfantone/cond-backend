@@ -1,0 +1,43 @@
+<?Header("Content-Type: text/xml");?>
+
+<?print "<?xml version=\"1.0\" ?>\n";?>
+
+<NewsML>
+
+  <Catalog Href="http://www.conduciendo.com/msnxml/"/>
+
+  <global_keywords>
+
+    <global_keyword>Conduciendo.com</global_keyword> 
+
+    <global_keyword>Msn</global_keyword> 
+
+    <global_keyword>car</global_keyword> 
+
+    <global_keyword>auto</global_keyword> 
+
+    <global_keyword>ML63 AMG vs. X5 M</global_keyword> 
+
+    <global_keyword>Matias Muro</global_keyword> 
+
+  </global_keywords>
+
+  <NewsEnvelope>
+
+    <DateAndTime>20100802T093154</DateAndTime>
+
+    <NewsService FormalName="Thumbnail" link-url="http://www.conduciendo.com">
+
+      http://conduciendo.com/assets/images/logo.png
+
+    </NewsService>
+
+  </NewsEnvelope>
+
+  <?foreach($data as $nota){?>
+
+    <?include("newsml_nota_item.phtml");?>
+
+  <?}?>
+
+</NewsML>

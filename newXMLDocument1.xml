@@ -1,0 +1,1340 @@
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://conduciendo.com/backend/example_soap.php/ConsultarNovedades" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:ConsultarNovedadesResponse>
+			<ConsultarNovedadesResult xsi:type="xsd:string">
+<?xml version="1.0" encoding="UTF-8"?>
+				<Novedades>
+					<Novedad>
+						<IdFicha><![CDATA[3911]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 12:28:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3910]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 12:12:13]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3909]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 12:14:09]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3908]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:25:36]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3907]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:17:10]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3906]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:32:58]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3903]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:29:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3897]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:37:25]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3882]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-27 08:35:36]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3881]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-27 08:24:18]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3880]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-27 08:02:36]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3879]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:46:28]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3878]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 08:42:53]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3836]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:57:36]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3835]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:07:59]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3834]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:02:54]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3833]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:58:48]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3832]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:34:02]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3828]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:39:49]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3825]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:37:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3823]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:35:35]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3804]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 08:21:19]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3803]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 08:07:53]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3800]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 08:41:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3785]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 09:26:08]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3784]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 09:26:08]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3783]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 09:26:08]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3782]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:58:55]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3781]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:20:41]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3780]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:50:47]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3774]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:23:27]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3773]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:19:16]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3772]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:36:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3771]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 07:28:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3770]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-09-27 11:06:47]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3769]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-09-27 11:06:33]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3768]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 11:05:58]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3757]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-09-26 08:22:24]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3756]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-09-26 08:31:40]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3755]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-09-26 08:29:50]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3754]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-09-26 08:26:48]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3753]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 08:46:08]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3752]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3751]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3750]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3749]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3748]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3747]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3746]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3745]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3744]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3743]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3742]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-03 11:38:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3721]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-03 11:27:21]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3717]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-03 11:27:20]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3715]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-03 11:27:19]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3703]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 10:03:53]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3700]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 10:03:53]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3679]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-03 11:23:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3678]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-07 16:33:59]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3677]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-09-05 11:46:21]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3675]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 08:37:22]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3673]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:50:47]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3672]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-05 08:21:52]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3671]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:55:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3670]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:55:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3669]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:55:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3668]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:55:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3667]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:55:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3666]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:55:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3665]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:55:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3664]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:55:11]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3663]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:37:33]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3662]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:37:33]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3661]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:37:33]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3660]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:37:33]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3659]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-05 08:00:52]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3658]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-05 08:00:52]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3657]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 12:07:22]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3656]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:20:41]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3655]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 12:07:22]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3646]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 11:47:10]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3645]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 11:47:31]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3644]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-12 14:45:07]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3643]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-12 14:45:07]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3637]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:20:41]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3636]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 08:44:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3635]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 08:44:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3634]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 08:44:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3633]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 08:44:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3632]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 08:44:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3631]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 08:44:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3601]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3600]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3599]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3598]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 14:08:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3597]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-07 16:33:58]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3596]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-07 16:33:58]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3595]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-07 16:33:58]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3593]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:20:41]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3592]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-07 15:27:51]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3591]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-12 14:56:39]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3590]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-12 14:56:39]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3585]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 09:26:08]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3584]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:50:47]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3582]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 11:08:14]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3581]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 11:08:14]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3580]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:36:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3573]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-07-28 12:14:46]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3572]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-07-28 12:12:59]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3571]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:28:56]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3570]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3569]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3568]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3567]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3566]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3565]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-07 16:33:59]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3564]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-07 16:33:59]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3563]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3562]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3561]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3560]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:24:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3559]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 12:32:04]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3553]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-08-03 07:52:46]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3552]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:20:41]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3551]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:20:41]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3514]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 09:26:08]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3512]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 09:26:08]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3511]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 09:26:08]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3483]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 11:46:53]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3472]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 08:48:29]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3471]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 12:07:22]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3470]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 12:07:22]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3469]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:20:41]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3468]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 08:43:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3467]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 08:47:30]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3466]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-07-05 12:52:19]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3465]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-07-05 12:45:25]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3464]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 08:38:26]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3463]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[baja]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-02 09:20:41]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3462]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:36:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3461]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:36:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3460]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:35:25]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3459]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:36:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3458]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:36:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3457]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:36:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3455]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-04 07:03:38]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3452]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-24 08:48:29]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3451]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:37:33]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3450]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:37:33]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3449]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-03 11:37:33]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3388]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:36:01]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3357]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-03 13:38:44]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3353]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:55:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3352]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:55:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3350]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:55:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3348]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:55:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3345]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:55:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3343]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:55:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3342]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-11-01 08:55:45]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3255]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:35:25]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3254]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-11 15:35:25]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3225]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-06-02 11:36:06]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3189]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-06-02 11:36:06]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3188]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[alta]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-06-08 14:11:16]]>
+						</FechaNovedad> 
+					</Novedad> 
+					<Novedad>
+						<IdFicha><![CDATA[3172]]>
+						</IdFicha> 
+						<TipoNovedad><![CDATA[modificacion]]>
+						</TipoNovedad> 
+						<FechaNovedad><![CDATA[2011-10-12 16:19:25]]>
+						</FechaNovedad> 
+					</Novedad> 
+				</Novedades>
+			</ConsultarNovedadesResult>
+		</ns1:ConsultarNovedadesResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,100 @@
+  <NewsItem LinkType="normal">
+    <Identification>
+      <NewsIdentifier>
+        <ProviderId>
+          www.conduciendo.com
+        </ProviderId>
+      </NewsIdentifier>
+    </Identification>
+    <NewsManagement>
+      <NewsItemType FormalName="News" />
+      <FirstCreated>
+        <?=$nota["fechapublicacion_yyyy"];?><?=$nota["fechapublicacion_mm"];?><?=$nota["fechapublicacion_dd"];?>T093154
+      </FirstCreated>
+      <ThisRevisionCreated>
+        <?=$nota["fechapublicacion_yyyy"];?><?=$nota["fechapublicacion_mm"];?><?=$nota["fechapublicacion_dd"];?>T093154
+      </ThisRevisionCreated>
+      <Status FormalName="Usable" />
+          </NewsManagement>
+          <NewsComponent Duid="<?=$nota["codigo"];?>" Essential="no" EquivalentsList="no">
+              <NewsLines>
+                <CopyrightLine>
+                  Copyright (c) Conduciendo.com. Todos los derechos reservados.
+                </CopyrightLine>
+              </NewsLines>
+              <NewsComponent Duid="<?=$nota["codigo"];?>">
+        <DateLine>
+          <?=$nota["fechapublicacion_yyyy"];?><?=$nota["fechapublicacion_mm"];?><?=$nota["fechapublicacion_dd"];?>T093154
+        </DateLine>
+        <Author>
+          <?=$nota["autor"];?>
+        </Author>
+                <NewsComponent>
+                    <Role FormalName="Main" />
+                    <NewsLines>
+                      <HeadLine>
+                        <?=$nota["titulo"];?>
+                      </HeadLine>
+            <SlugLine>
+              <?=$nota["resumen"];?>
+            </SlugLine>
+            <MoreLink>
+              <?=$nota["linknota"];?>
+            </MoreLink>
+                    </NewsLines>
+                    <ContentItem>
+                      <MediaType FormalName="ComplexData" />
+                        <MimeType FormalName="text/vnd.IPTC.NITF" />
+                        <DataContent>
+                          <nitf>
+                            <body>
+                                  <body.head>
+                                    <hedline>
+                                        <hl1><?=$nota["titulo"];?></hl1>
+                                    </hedline>
+                                  </body.head>
+                                  <body.content>
+                    <p><strong><?=$nota["subtitulo"];?></strong></p>
+
+                    <?foreach($nota["cuerpo_parrafos"] as $parrafo){?>
+                      <?if(!$parrafo) continue;?>
+                      <p><?=$parrafo;?></p>
+                    <?}?>
+                  <media media-type="image">
+                    <media-reference mime-type="image/jpeg" source="<?=$nota["imagenprincipal"];?>" alternate-text="<?=$nota["leyendaimagenprincipal"];?>" link-url="<?=$nota["linknota"];?>" copyright="<?=$nota["leyendalogomarca"];?>"></media-reference>
+                                        <media-caption></media-caption>
+                                    </media>
+                                </body.content>
+                              </body>
+                          </nitf>
+                      </DataContent>
+                    </ContentItem>
+                </NewsComponent>
+                <NewsComponent>
+                  <Role FormalName="Supporting" />
+                    <NewsComponent Duid="<?=$nota["codigo"];?>">
+          <NewsComponent>
+            <Role FormalName="Main" />
+            <ContentItem Href="<?=$nota["imagenprincipal"];?>" link-url="<?=$nota["linknota"];?>" copyright="<?=$nota["leyendalogomarca"];?>">
+              <MediaType FormalName="Photo" />
+              <MimeType FormalName="<?=$nota["imagenprincipal_size"]["mime"];?>" />
+              <comment>
+                <scheme>0</scheme>
+              </comment>
+            </ContentItem>
+          </NewsComponent>
+          <NewsComponent>
+            <Role FormalName="Caption" />
+            <ContentItem>
+              <MediaType FormalName="Text" />
+              <MimeType FormalName="text/plain" />
+              <DataContent>
+                <?=$nota["leyendaimagenprincipal"];?>
+              </DataContent>
+            </ContentItem>
+          </NewsComponent>
+                  </NewsComponent>
+      </NewsComponent>
+    </NewsComponent>
+  </NewsComponent>
+</NewsItem>
