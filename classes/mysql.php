@@ -1,9 +1,7 @@
 <?
 
 if (!class_exists('db_mysql')) {
-
   class db_mysql {
-
     var $connection;
     var $host;
     var $user;
@@ -12,25 +10,13 @@ if (!class_exists('db_mysql')) {
     var $id;
 
     function connect() {
-      /*
-        $this->host = 'mysql50-37.wc1.dfw1.stabletransit.com';
-        $this->user = '384668_condu';
-        $this->pass = 'Mysql2009';
-        $this->base = '384668_conduciendo';
-       */
-		/*
-        $this->host = 'conduciendo2009.db.5102269.hostedresource.com';
-        $this->user = 'conduciendo2009';
-        $this->pass = 'Conduciendo1!';
-        $this->base = 'conduciendo2009';
-        */
-      $this->host = 'localhost';
-      $this->user = 'conduciendo_prod';
-      $this->pass = 'm4sticoN1010';
-      $this->base = 'conduciendo_prod';		
-        
+      $this->host = '127.0.0.1:3306';
+      $this->user = 'root';
+      // $this->user = 'conduciendo_prod';
+      $this->pass = '';
+      $this->base = 'conduciendo_prod';
 
-      $this->connection = @mysql_connect($this->host, $this->user, $this->pass) or die("<b>Error:</b> Connection to database server cannot be established.");
+      $this->connection = mysql_connect($this->host, $this->user, $this->pass) or die("<b>Error:</b> Connection to database server cannot be established.");
       @mysql_select_db($this->base, $this->connection) or die("<b>Error:</b> Connection to database cannot be established.");
     }
 

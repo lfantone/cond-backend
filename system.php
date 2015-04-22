@@ -88,8 +88,9 @@ function unconvert_entity($matches) {
 }
 */
 
-if(!$admin){
-  if(!in_array($_SERVER['SCRIPT_NAME'], array("/backend/index.php","/backend/signin.php"))){
+if(!$admin) {
+  $path = "/";
+  if(!in_array($_SERVER['SCRIPT_NAME'], array($path."index.php", $path."signin.php"))) {
     header("Location: index.php?msg=session_expired&goto=$goto");
     exit;
   }
