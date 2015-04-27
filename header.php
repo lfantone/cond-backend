@@ -5,11 +5,11 @@ $database = new db_mysql();
 $database->connect();
 
 $comentarios_sql = "
-	SELECT count(*) as cantidad FROM comentarios WHERE status IS NULL OR status = 0
+  SELECT count(*) as cantidad FROM comentarios WHERE status IS NULL OR status = 0
 ";
 $count_comentarios = $database->list_assoc($comentarios_sql);
 
-             
+
 
 ?>
 <script type="text/javascript" src="assets/scripts/prototype.js"></script>
@@ -44,7 +44,7 @@ $count_comentarios = $database->list_assoc($comentarios_sql);
 </style>
 <div class="top">
   <div class="inner">
-    <div class="account"><span>Usuario: <?php echo $_SESSION["admin_nombre"]; ?> (<?php echo $_SESSION["admin_email"]; ?>)</span>&nbsp;<a href="signout.php">cerrar sesi&oacute;n</a> </div>
+    <div class="account"><span>Usuario: <?php echo $_SESSION["admin_nombre"]; ?> (<?php echo $_SESSION["admin_email"]; ?>)</span>&nbsp;<a href="/signout">cerrar sesi&oacute;n</a> </div>
     <img src="assets/images/logo.gif" /></div>
 </div>
 <div class="header">
@@ -57,17 +57,17 @@ $count_comentarios = $database->list_assoc($comentarios_sql);
 } ?> >Notas <span style="color:#DF013A;font-size: 9px">(<?=$count_comentarios[0]['cantidad']?>)</span></a>
           <ul>
             <li><a href="comentarios.php">Comentarios</a></li>
-          </ul>                                  
+          </ul>
         </li>
         <li>
-		 <a href="javascript: void(0);">Multimedia</a>
+     <a href="javascript: void(0);">Multimedia</a>
           <ul>
-		  <li><a href="imagenes.php" <? if (in_array($current_script, array('/backend/imagenes.php', '/backend/imagenes_editar.php'))) { echo " class=\"active\"";} ?> >Imagenes</a></li>
+      <li><a href="imagenes.php" <? if (in_array($current_script, array('/backend/imagenes.php', '/backend/imagenes_editar.php'))) { echo " class=\"active\"";} ?> >Imagenes</a></li>
           <li><a href="videos.php" <? if (in_array($current_script, array('/backend/videos.php', '/backend/videos_editar.php'))) {  echo " class=\"active\"";} ?> >Videos</a>
           <li><a href="wallpapers.php" <? if (in_array($current_script, array('/backend/wallpapers.php', '/backend/wallpapers_editar.php'))) {  echo " class=\"active\"";} ?> >Wallpapers</a></li>
-          <li><a href="galeria.php" <? if (in_array($current_script, array('/backend/galeria.php'))) {  echo " class=\"active\"";} ?> >Galeria</a></li>          
+          <li><a href="galeria.php" <? if (in_array($current_script, array('/backend/galeria.php'))) {  echo " class=\"active\"";} ?> >Galeria</a></li>
           </ul>
-        </li>          
+        </li>
         <li><a href="encuestas.php" <? if (in_array($current_script, array('/backend/encuestas.php', '/backend/encuestas_editar.php'))) {  echo " class=\"active\"";} ?> >Encuestas</a></li>
         <li><a href="marcas.php" <? if (in_array($current_script, array('/backend/marcas.php', '/backend/marcas_editar.php'))) {  echo " class=\"active\"";} ?> >Marcas</a></li>
 <!--                <li><a href="modelo_list.php" <? if (in_array($current_script, array('/backend/marcas.php', '/backend/marcas_editar.php'))) {  echo " class=\"active\"";} ?> >Modelo</a></li>
@@ -124,14 +124,24 @@ $count_comentarios = $database->list_assoc($comentarios_sql);
         </li>
 
         <!-- <li><a href="item_list.php" <? if (in_array($current_script, array('/backend/item_list.php'))) {  echo " class=\"active\"";} ?> >Items</a></li> -->
-        <li><a href="archivos_xml.php" <? if (in_array($current_script, array('/backend/archivos_xml.php', '/backend/archivos_xml_editar.php'))) {  echo " class=\"active\"";} ?> >XML</a></li>
-<?php if ($_SESSION['admin_superadmin']) { ?>
-          <li><a href="autores_list.php" <? if (in_array($current_script, array('/backend/autores_list.php'))) {    echo " class=\"active\"";  } ?> >Autores</a></li>
-<?php } ?>
+        <li>
+          <a href="archivos_xml.php" <? if (in_array($current_script, array('/backend/archivos_xml.php', '/backend/archivos_xml_editar.php'))) {  echo " class=\"active\"";} ?> >XML</a>
+        </li>
+        <?php if ($_SESSION['admin_superadmin']) { ?>
+        <li>
+          <a href="autores_list.php" <? if (in_array($current_script, array('/backend/autores_list.php'))) {    echo " class=\"active\"";  } ?> >Autores</a>
+        </li>
+        <?php } ?>
         <!-- <li><a href="precios.php" <? if (in_array($current_script, array('/backend/precios.php'))) {  echo " class=\"active\"";} ?> >Precios</a></li> -->
-        <li><a href="magazine_notas.php" <? if (in_array($current_script, array('/backend/magazine_notas.php', '/backend/magazine_notas_editar.php'))) {  echo " class=\"active\"";} ?> >Vida Metro</a></li>
-        <li><a href="/backend/newslettertools.php" <? if (in_array($current_script, array('/backend/newslettertools.php'))) {  echo " class=\"active\"";} ?> >Newsletter</a></li>
-
+        <li>
+          <a href="magazine_notas.php" <? if (in_array($current_script, array('/backend/magazine_notas.php', '/backend/magazine_notas_editar.php'))) {  echo " class=\"active\"";} ?> >Vida Metro</a>
+        </li>
+        <li>
+          <a href="/backend/newslettertools.php" <? if (in_array($current_script, array('/backend/newslettertools.php'))) {  echo " class=\"active\"";} ?> >Newsletter</a>
+        </li>
+        <li>
+          <a href="/banner" <? if (in_array($current_script, array('/redirect.php'))) {  echo " class=\"active\"";} ?> >Banners</a>
+        </li>
       </ul>
     </div>
   </div>
